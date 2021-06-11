@@ -1,8 +1,7 @@
 import React from 'react';
 
-class TodoList extends React.Component {
+  function TodoList(props) {
 
-  render() {
     return (
       <ul>
         {this.props.list.map(item => (
@@ -18,6 +17,5 @@ class TodoList extends React.Component {
       </ul>
     );
   }
-}
 
 export default TodoList;
